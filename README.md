@@ -1,4 +1,4 @@
 hue
 ===
 
-Service for flashing Philips Hue lights when interesting things happen on Booodl
+Service for flashing Philips Hue lights when interesting things happen on Booodl.

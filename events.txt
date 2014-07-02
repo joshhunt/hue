@@ -1,0 +1,5 @@
+Follow user:  user.follow.user
+Like card:    user.like.card
+Collect card: user.collect.card
+Add Card:     user.add.card
+New User:     system.add.user
