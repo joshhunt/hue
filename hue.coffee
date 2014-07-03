@@ -1,7 +1,7 @@
 _     = require 'underscore'
 hue   = require 'node-hue-api'
 request = require 'request'
-Q     = require 'Q'
+Q     = require 'q'
 async = require 'async'
 require 'colors'
 
