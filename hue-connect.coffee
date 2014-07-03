@@ -1,6 +1,6 @@
 _     = require 'underscore'
 hue   = require 'node-hue-api'
-Q     = require 'Q'
+Q     = require 'q'
 
 utils  = require './utils'
 config = require './config'
