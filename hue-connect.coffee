@@ -8,10 +8,11 @@ config = require './config'
 fallbackTimeout = 0
 api = new hue.HueApi()
 deferred = Q.defer()
+promise = deferred.promise
 lights = {}
 module.exports.lights = lights
 module.exports.api = api
-
+module.exports.promise = promise
 
 module.exports.connect = ->
     hue.locateBridges()
@@ -22,7 +23,7 @@ module.exports.connect = ->
             utils.log err
         .done()
 
-    return deferred.promise
+    return promise
 
 
 postLocateBridges = (bridges) ->

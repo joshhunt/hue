@@ -10,8 +10,8 @@ Make sure you create a `locals.json` file and specify `eventBusUrl` and `eventBu
 
 ```
 {
-    "eventBusUrlProd": "amqp://booodl:booodlit@10.11.1.66",
-    "eventBusExchangeProd": "BooodlBus"
+    "eventBusUrl": "amqp://booodl:booodlit@10.11.1.66",
+    "eventBusExchange": "BooodlBus"
 }
 ```
 
